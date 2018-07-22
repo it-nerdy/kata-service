@@ -45,7 +45,7 @@ public class KataController {
 			String[] rows = content.split("\n");
 			List<KataDO> dataList = new ArrayList<KataDO>();
 			for (String row : rows) {
-				
+
 				String[] columns = row.split(",");
 				if (columns.length == 4) {
 					KataDO kataDo = new KataDO(columns[0], columns[1], columns[2], columns[3]);
@@ -56,7 +56,7 @@ public class KataController {
 			}
 			System.out.println(dataList.toString());
 		} catch (IOException e) {
-			logger.error(e.getMessage());
+			logger.error("Execption in parsing the input File", e);
 			return new KataResponse("Failure");
 		}
 
