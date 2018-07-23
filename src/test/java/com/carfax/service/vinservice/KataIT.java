@@ -8,6 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.commons.io.IOUtils;
+import org.json.JSONException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.skyscreamer.jsonassert.JSONAssert;
@@ -46,7 +47,7 @@ public class KataIT {
 	 * @throws Exception
 	 */
 	@Test
-	public void testUpload() throws Exception {
+	public void testUpload() throws JSONException {
 		String filePath = this.getClass().getClassLoader().getResource("vehicles.csv").getPath();
 		File inputFile = new File(filePath);
 		FileInputStream fileInputStream = null;
