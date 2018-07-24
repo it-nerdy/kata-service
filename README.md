@@ -23,5 +23,5 @@ Procedure to run kata service
     1) Got to web browser type http://localhost:8080/ in address bar, provided your docker container is running in local system or else http://ip_address:8080/. Select `Choose File` button, choose the file. Click on `Upload` button. See server logs (`docker logs`) for output.
     ![Alt text](Images/browser.png?raw=true "Web interface")
     2) Clone this repository https://github.com/nutim/kata-client.git follow the given procedure and run Standalone client for the kata service.
-    3) An integration test is added in to the project. Run `KataIT.java` to check the service.
+    3) An integration test is added in the project. Run `KataIT.java` to check the service. Example : `mvn -Dtest=KataIT test` in kata-service directory will test the service.
    
