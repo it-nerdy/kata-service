@@ -11,7 +11,7 @@ Procedure to run kata service
 
 1) Clone the repository `git clone https://github.com/nutim/kata-service.git`
 2) Run `mvn clean install`
-3) Run this command as administator. In Ubuntu linux run this command `sudo mvn package dockerfile:build`. This command creates docker image file. This step takes time depending on the internet speed.
+3) Run this command as administator. In Ubuntu linux run this command `sudo mvn package dockerfile:build`. This command creates docker image. This step takes time, depending on the internet speed.
 4) Make sure docker image file is created. To check this, run command `sudo docker images`. Somithing similar will appear.
 
 | REPOSITORY  | TAG  | IMAGE ID  | CREATED  | SIZE  |
