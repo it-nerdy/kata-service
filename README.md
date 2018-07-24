@@ -24,4 +24,7 @@ Procedure to run kata service
     ![Alt text](Images/browser.png?raw=true "Web interface")
     2) Clone this repository https://github.com/nutim/kata-client.git follow the given procedure and run Standalone client for the kata service.
     3) An integration test is added in the project. Run `KataIT.java` to check the service. Example : `mvn -Dtest=KataIT test` in kata-service directory will test the service.
+    
+    
+Note: Both the client and service applications are Eclipse projects, for reviewing the code it would be easy to import in Eclipse IDE.
    
