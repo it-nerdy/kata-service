@@ -3,9 +3,9 @@
 Prerequsites:
 Please install all the required tools to run this.
 
-    1) Java 8     
-    2) Maven 3.2+ sudo apt install maven
-    3) docker - https://docs.docker.com/install/
+    1) Java 8    
+    2) Maven 3.2+ - sudo apt install maven
+    3) docker - sudo apt install docker.io
 
 Procedure to run kata service
 
